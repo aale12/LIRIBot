@@ -63,3 +63,4 @@ typings/
 
 # js linter
 .eslintrc.js
+.eslintignore
