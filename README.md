@@ -28,5 +28,4 @@ CLI assistant using node.js
   * Venue Location
   * Venue Date
 
-
-
+[Check out the bot in action here!](https://i.imgur.com/V8hp43n.gifv)
