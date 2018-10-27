@@ -1,20 +1,647 @@
 {
   "tracks": {
-    "href": "https://api.spotify.com/v1/search?query=I+Want+It+That+Way&type=track&offset=0&limit=20",
+    "href": "https://api.spotify.com/v1/search?query=thriller&type=track&offset=0&limit=20",
     "items": [
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2X8UOIkZQdcz2Hi5Ynt2uk"
+          },
+          "href": "https://api.spotify.com/v1/albums/2X8UOIkZQdcz2Hi5Ynt2uk",
+          "id": "2X8UOIkZQdcz2Hi5Ynt2uk",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/afc94d1d4b72d8c2d81660131e53f36ea92affda",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/0f75e9422e70650550ec9e4dee7c132fb9bede7a",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/b188d610efd0432755907dc336355b7df0827d87",
+              "width": 64
+            }
+          ],
+          "name": "Scream",
+          "release_date": "2017-09-27",
+          "release_date_precision": "day",
+          "total_tracks": 14,
+          "type": "album",
+          "uri": "spotify:album:2X8UOIkZQdcz2Hi5Ynt2uk"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 358053,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902989"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/7azo4rpSUh8nXgtonC6Pkq"
+        },
+        "href": "https://api.spotify.com/v1/tracks/7azo4rpSUh8nXgtonC6Pkq",
+        "id": "7azo4rpSUh8nXgtonC6Pkq",
+        "is_local": false,
+        "name": "Thriller",
+        "popularity": 72,
+        "preview_url": "https://p.scdn.co/mp3-preview/9f288fba4d3380b1ae25e7f88a2054d7fac0bf2d?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:7azo4rpSUh8nXgtonC6Pkq"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
+          },
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
+          "images": [
+            {
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
+              "width": 640
+            },
+            {
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
+              "width": 300
+            },
+            {
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
+              "width": 64
+            }
+          ],
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 30,
+          "type": "album",
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 293826,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902991"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"
+        },
+        "href": "https://api.spotify.com/v1/tracks/5ChkMS8OtdzJeqyybCc9R5",
+        "id": "5ChkMS8OtdzJeqyybCc9R5",
+        "is_local": false,
+        "name": "Billie Jean",
+        "popularity": 84,
+        "preview_url": "https://p.scdn.co/mp3-preview/4eb779428d40d579f14d12a9daf98fc66c7d0be4?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:5ChkMS8OtdzJeqyybCc9R5"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
+          },
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
+          "images": [
+            {
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
+              "width": 640
+            },
+            {
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
+              "width": 300
+            },
+            {
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
+              "width": 64
+            }
+          ],
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 30,
+          "type": "album",
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 258040,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902990"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1OOtq8tRnDM8kG2gqUPjAj"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1OOtq8tRnDM8kG2gqUPjAj",
+        "id": "1OOtq8tRnDM8kG2gqUPjAj",
+        "is_local": false,
+        "name": "Beat It - Single Version",
+        "popularity": 79,
+        "preview_url": "https://p.scdn.co/mp3-preview/4901df6e0f8bf6ce93e08df7d98a50e220c45799?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:1OOtq8tRnDM8kG2gqUPjAj"
+      },
       {
         "album": {
           "album_type": "compilation",
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-              "id": "5rSXSAkZ67PYJSvpUpkOr7",
-              "name": "Backstreet Boys",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -85,44 +712,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/1NslKOZobWxINFaFkLol3r"
+            "spotify": "https://open.spotify.com/album/7pMVCMwGykuEu9rzTHxLCm"
           },
-          "href": "https://api.spotify.com/v1/albums/1NslKOZobWxINFaFkLol3r",
-          "id": "1NslKOZobWxINFaFkLol3r",
+          "href": "https://api.spotify.com/v1/albums/7pMVCMwGykuEu9rzTHxLCm",
+          "id": "7pMVCMwGykuEu9rzTHxLCm",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/91142eab23c3273fa73e490f2d04464c69423f75",
-              "width": 640
+              "url": "https://i.scdn.co/image/20229cb85db3fe46f0fa3ea2eab0260341a4baf6",
+              "width": 632
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/a0c568812dd34dc1f0262dabec0773c27e36f27a",
-              "width": 300
+              "url": "https://i.scdn.co/image/3016e74f3a9677c2dd3a24ed73e42e2a43d2af7c",
+              "width": 296
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/59281a4b01e936a3a5fa3d95d58b033780f0cf8c",
-              "width": 64
+              "url": "https://i.scdn.co/image/6120a09e0762b57d2fa8f73cdcb916e20f4110e5",
+              "width": 63
             }
           ],
-          "name": "The Hits--Chapter One",
-          "release_date": "2001-10-23",
-          "release_date_precision": "day",
-          "total_tracks": 13,
+          "name": "Michael Jackson's This Is It",
+          "release_date": "2009",
+          "release_date_precision": "year",
+          "total_tracks": 20,
           "type": "album",
-          "uri": "spotify:album:1NslKOZobWxINFaFkLol3r"
+          "uri": "spotify:album:7pMVCMwGykuEu9rzTHxLCm"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-            "id": "5rSXSAkZ67PYJSvpUpkOr7",
-            "name": "Backstreet Boys",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -193,23 +820,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 213600,
+        "duration_ms": 357493,
         "explicit": false,
         "external_ids": {
-          "isrc": "USJI19910614"
+          "isrc": "USSM19902989"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6"
+          "spotify": "https://open.spotify.com/track/1D9KEXIrlmPUkMTdYzqgX4"
         },
-        "href": "https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6",
-        "id": "6e40mgJiCid5HRAGrbpGA6",
+        "href": "https://api.spotify.com/v1/tracks/1D9KEXIrlmPUkMTdYzqgX4",
+        "id": "1D9KEXIrlmPUkMTdYzqgX4",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 80,
-        "preview_url": "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 1,
+        "name": "Thriller",
+        "popularity": 68,
+        "preview_url": "https://p.scdn.co/mp3-preview/0b62db54da539b34856448e509c30ce4601931f5?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 9,
         "type": "track",
-        "uri": "spotify:track:6e40mgJiCid5HRAGrbpGA6"
+        "uri": "spotify:track:1D9KEXIrlmPUkMTdYzqgX4"
       },
       {
         "album": {
@@ -217,13 +844,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-              "id": "5rSXSAkZ67PYJSvpUpkOr7",
-              "name": "Backstreet Boys",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -294,44 +921,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/5ySxm9hxBNss01WCL7GLyQ"
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
           },
-          "href": "https://api.spotify.com/v1/albums/5ySxm9hxBNss01WCL7GLyQ",
-          "id": "5ySxm9hxBNss01WCL7GLyQ",
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
           "images": [
             {
-              "height": 640,
-              "url": "https://i.scdn.co/image/75ef51515facc973f2c12833b6975761ea874865",
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
               "width": 640
             },
             {
-              "height": 300,
-              "url": "https://i.scdn.co/image/af232aed97cdfd17f41d4ff30bd29a1333dc23f2",
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
               "width": 300
             },
             {
-              "height": 64,
-              "url": "https://i.scdn.co/image/13a889f0b470d0464724a89784a5a5634b561955",
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
               "width": 64
             }
           ],
-          "name": "Millennium",
-          "release_date": "1999-05-18",
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 12,
+          "total_tracks": 30,
           "type": "album",
-          "uri": "spotify:album:5ySxm9hxBNss01WCL7GLyQ"
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-            "id": "5rSXSAkZ67PYJSvpUpkOr7",
-            "name": "Backstreet Boys",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -402,23 +1029,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 213306,
+        "duration_ms": 238733,
         "explicit": false,
         "external_ids": {
-          "isrc": "USJI19910614"
+          "isrc": "USSM19902993"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya"
+          "spotify": "https://open.spotify.com/track/5lA3pwMkBdd24StM90QrNR"
         },
-        "href": "https://api.spotify.com/v1/tracks/47BBI51FKFwOMlIiX6m8ya",
-        "id": "47BBI51FKFwOMlIiX6m8ya",
+        "href": "https://api.spotify.com/v1/tracks/5lA3pwMkBdd24StM90QrNR",
+        "id": "5lA3pwMkBdd24StM90QrNR",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 78,
-        "preview_url": "https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 2,
+        "name": "P.Y.T. (Pretty Young Thing)",
+        "popularity": 73,
+        "preview_url": "https://p.scdn.co/mp3-preview/575230ca230ab7a79f1b2980e303d7f1612073f3?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 8,
         "type": "track",
-        "uri": "spotify:track:47BBI51FKFwOMlIiX6m8ya"
+        "uri": "spotify:track:5lA3pwMkBdd24StM90QrNR"
       },
       {
         "album": {
@@ -426,13 +1053,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/7kwEvDE8e7EBGKh5bLczqQ"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/7kwEvDE8e7EBGKh5bLczqQ",
-              "id": "7kwEvDE8e7EBGKh5bLczqQ",
-              "name": "Anthem Lights",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:7kwEvDE8e7EBGKh5bLczqQ"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -503,44 +1130,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/6y6y4kyZ81PF951e9N4WBM"
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
           },
-          "href": "https://api.spotify.com/v1/albums/6y6y4kyZ81PF951e9N4WBM",
-          "id": "6y6y4kyZ81PF951e9N4WBM",
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
           "images": [
             {
-              "height": 640,
-              "url": "https://i.scdn.co/image/661b0ae23d3301fcb89885939b4d824231aae59a",
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
               "width": 640
             },
             {
-              "height": 300,
-              "url": "https://i.scdn.co/image/69ac515480d99d5490966863b97bfc67c7795a59",
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
               "width": 300
             },
             {
-              "height": 64,
-              "url": "https://i.scdn.co/image/6049ffadae5974c074334b3ab47604207b2d8858",
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
               "width": 64
             }
           ],
-          "name": "Covers Part IV",
-          "release_date": "2015-07-17",
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 12,
+          "total_tracks": 30,
           "type": "album",
-          "uri": "spotify:album:6y6y4kyZ81PF951e9N4WBM"
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/7kwEvDE8e7EBGKh5bLczqQ"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/7kwEvDE8e7EBGKh5bLczqQ",
-            "id": "7kwEvDE8e7EBGKh5bLczqQ",
-            "name": "Anthem Lights",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:7kwEvDE8e7EBGKh5bLczqQ"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -611,232 +1238,437 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 196969,
+        "duration_ms": 357266,
         "explicit": false,
         "external_ids": {
-          "isrc": "QMF921550064"
+          "isrc": "USSM19902989"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA"
+          "spotify": "https://open.spotify.com/track/3S2R0EVwBSAVMd5UMgKTL0"
         },
-        "href": "https://api.spotify.com/v1/tracks/3Ww6kEWxLh4Ub4WPJ9hMtA",
-        "id": "3Ww6kEWxLh4Ub4WPJ9hMtA",
+        "href": "https://api.spotify.com/v1/tracks/3S2R0EVwBSAVMd5UMgKTL0",
+        "id": "3S2R0EVwBSAVMd5UMgKTL0",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 52,
-        "preview_url": "https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 7,
-        "type": "track",
-        "uri": "spotify:track:3Ww6kEWxLh4Ub4WPJ9hMtA"
-      },
-      {
-        "album": {
-          "album_type": "album",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/6dBIk14xcZqU0cRsyjXNkX"
-              },
-              "href": "https://api.spotify.com/v1/artists/6dBIk14xcZqU0cRsyjXNkX",
-              "id": "6dBIk14xcZqU0cRsyjXNkX",
-              "name": "Tyler and Mark",
-              "type": "artist",
-              "uri": "spotify:artist:6dBIk14xcZqU0cRsyjXNkX"
-            }
-          ],
-          "available_markets": [
-            "AD",
-            "AR",
-            "AT",
-            "AU",
-            "BE",
-            "BG",
-            "BO",
-            "BR",
-            "CA",
-            "CH",
-            "CL",
-            "CO",
-            "CR",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "DO",
-            "EC",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GB",
-            "GR",
-            "GT",
-            "HK",
-            "HN",
-            "HU",
-            "ID",
-            "IE",
-            "IL",
-            "IS",
-            "IT",
-            "JP",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MC",
-            "MT",
-            "MX",
-            "MY",
-            "NI",
-            "NL",
-            "NO",
-            "NZ",
-            "PA",
-            "PE",
-            "PH",
-            "PL",
-            "PT",
-            "PY",
-            "RO",
-            "SE",
-            "SG",
-            "SK",
-            "SV",
-            "TH",
-            "TR",
-            "TW",
-            "US",
-            "UY",
-            "VN",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/2OB116yi2gPBqwgQvqjKIy"
-          },
-          "href": "https://api.spotify.com/v1/albums/2OB116yi2gPBqwgQvqjKIy",
-          "id": "2OB116yi2gPBqwgQvqjKIy",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/c565898f76fb04fa19accdaafdcff117c2928f44",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/e81bd4601339d455b709e4b96b4928f2040d867b",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/9a3dc3365f5d988852b49ca3a363301ff826bfb3",
-              "width": 64
-            }
-          ],
-          "name": "Beautiful Dreams",
-          "release_date": "2018-08-28",
-          "release_date_precision": "day",
-          "total_tracks": 10,
-          "type": "album",
-          "uri": "spotify:album:2OB116yi2gPBqwgQvqjKIy"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/6dBIk14xcZqU0cRsyjXNkX"
-            },
-            "href": "https://api.spotify.com/v1/artists/6dBIk14xcZqU0cRsyjXNkX",
-            "id": "6dBIk14xcZqU0cRsyjXNkX",
-            "name": "Tyler and Mark",
-            "type": "artist",
-            "uri": "spotify:artist:6dBIk14xcZqU0cRsyjXNkX"
-          }
-        ],
-        "available_markets": [
-          "AD",
-          "AR",
-          "AT",
-          "AU",
-          "BE",
-          "BG",
-          "BO",
-          "BR",
-          "CA",
-          "CH",
-          "CL",
-          "CO",
-          "CR",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "DO",
-          "EC",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GB",
-          "GR",
-          "GT",
-          "HK",
-          "HN",
-          "HU",
-          "ID",
-          "IE",
-          "IL",
-          "IS",
-          "IT",
-          "JP",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MC",
-          "MT",
-          "MX",
-          "MY",
-          "NI",
-          "NL",
-          "NO",
-          "NZ",
-          "PA",
-          "PE",
-          "PH",
-          "PL",
-          "PT",
-          "PY",
-          "RO",
-          "SE",
-          "SG",
-          "SK",
-          "SV",
-          "TH",
-          "TR",
-          "TW",
-          "US",
-          "UY",
-          "VN",
-          "ZA"
-        ],
-        "disc_number": 1,
-        "duration_ms": 140204,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "QMPKX1875260"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/7k52T0b1v9ktm2gJwlO5yy"
-        },
-        "href": "https://api.spotify.com/v1/tracks/7k52T0b1v9ktm2gJwlO5yy",
-        "id": "7k52T0b1v9ktm2gJwlO5yy",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 45,
-        "preview_url": "https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=e838ab4e51474c979e58b50762875ce3",
+        "name": "Thriller",
+        "popularity": 65,
+        "preview_url": "https://p.scdn.co/mp3-preview/dd0621b7f11364a37c96031dbedbca6b88dbfa7d?cid=e838ab4e51474c979e58b50762875ce3",
         "track_number": 4,
         "type": "track",
-        "uri": "spotify:track:7k52T0b1v9ktm2gJwlO5yy"
+        "uri": "spotify:track:3S2R0EVwBSAVMd5UMgKTL0"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
+          },
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
+              "width": 64
+            }
+          ],
+          "name": "Thriller",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 9,
+          "type": "album",
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 357800,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902989"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2LlQb7Uoj1kKyGhlkBf9aC",
+        "id": "2LlQb7Uoj1kKyGhlkBf9aC",
+        "is_local": false,
+        "name": "Thriller",
+        "popularity": 60,
+        "preview_url": "https://p.scdn.co/mp3-preview/e87c95de42eecbed85b08021e3125833ed31ae98?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:2LlQb7Uoj1kKyGhlkBf9aC"
+      },
+      {
+        "album": {
+          "album_type": "compilation",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/77dNyQA0z8dV33M4so4eRY"
+          },
+          "href": "https://api.spotify.com/v1/albums/77dNyQA0z8dV33M4so4eRY",
+          "id": "77dNyQA0z8dV33M4so4eRY",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/528e0d05f445e9e16b46b0923c62ca950ace7e7b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/58c03d51bb18525f43398d128440500b7ab844fb",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/008dbfe055e000a897b11ae7736a38e560ffd124",
+              "width": 64
+            }
+          ],
+          "name": "The Essential Michael Jackson",
+          "release_date": "2005-07-19",
+          "release_date_precision": "day",
+          "total_tracks": 38,
+          "type": "album",
+          "uri": "spotify:album:77dNyQA0z8dV33M4so4eRY"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 312413,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM10501511"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/20efeySIfZoiSaISGLBbNs"
+        },
+        "href": "https://api.spotify.com/v1/tracks/20efeySIfZoiSaISGLBbNs",
+        "id": "20efeySIfZoiSaISGLBbNs",
+        "is_local": false,
+        "name": "Thriller - Single Version",
+        "popularity": 61,
+        "preview_url": "https://p.scdn.co/mp3-preview/41d3639dcb9fa25f07fb849730718a62538c6237?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 21,
+        "type": "track",
+        "uri": "spotify:track:20efeySIfZoiSaISGLBbNs"
       },
       {
         "album": {
@@ -844,13 +1676,23 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/7AbYSzOocUvzy7DSJ9gm68"
+                "spotify": "https://open.spotify.com/artist/3TKCdsX8yNNoiC1gesn6or"
               },
-              "href": "https://api.spotify.com/v1/artists/7AbYSzOocUvzy7DSJ9gm68",
-              "id": "7AbYSzOocUvzy7DSJ9gm68",
-              "name": "Manuel Costa",
+              "href": "https://api.spotify.com/v1/artists/3TKCdsX8yNNoiC1gesn6or",
+              "id": "3TKCdsX8yNNoiC1gesn6or",
+              "name": "Ronny J",
               "type": "artist",
-              "uri": "spotify:artist:7AbYSzOocUvzy7DSJ9gm68"
+              "uri": "spotify:artist:3TKCdsX8yNNoiC1gesn6or"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2rhFzFmezpnW82MNqEKVry"
+              },
+              "href": "https://api.spotify.com/v1/artists/2rhFzFmezpnW82MNqEKVry",
+              "id": "2rhFzFmezpnW82MNqEKVry",
+              "name": "Ski Mask The Slump God",
+              "type": "artist",
+              "uri": "spotify:artist:2rhFzFmezpnW82MNqEKVry"
             }
           ],
           "available_markets": [
@@ -921,253 +1763,54 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/5OTVQJeg9hddMiZOnjMS4S"
+            "spotify": "https://open.spotify.com/album/6Wq0FWEuqamnK8JkEF07QL"
           },
-          "href": "https://api.spotify.com/v1/albums/5OTVQJeg9hddMiZOnjMS4S",
-          "id": "5OTVQJeg9hddMiZOnjMS4S",
+          "href": "https://api.spotify.com/v1/albums/6Wq0FWEuqamnK8JkEF07QL",
+          "id": "6Wq0FWEuqamnK8JkEF07QL",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/193b91b57b67448e25fda40ac5a685a20d33ecaf",
+              "url": "https://i.scdn.co/image/a36346203ec5d8244063bfee940acda007c296bf",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/dd9b661dced13d90a53ec1dfbf888ea1ff8dcc09",
+              "url": "https://i.scdn.co/image/e3c03500d15c42792a3fe7de9a7bed0e6d973afe",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/c02c80fc2733c76c9c1e612e5595f52bf587859a",
+              "url": "https://i.scdn.co/image/ae68f5247e4a1c84409ad050e707b13bbe3b37d9",
               "width": 64
             }
           ],
-          "name": "I Want It That Way",
-          "release_date": "2017-07-14",
+          "name": "Thriller (Forever) [feat. Ski Mask The Slump God]",
+          "release_date": "2017-10-27",
           "release_date_precision": "day",
           "total_tracks": 1,
           "type": "album",
-          "uri": "spotify:album:5OTVQJeg9hddMiZOnjMS4S"
+          "uri": "spotify:album:6Wq0FWEuqamnK8JkEF07QL"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/7AbYSzOocUvzy7DSJ9gm68"
+              "spotify": "https://open.spotify.com/artist/3TKCdsX8yNNoiC1gesn6or"
             },
-            "href": "https://api.spotify.com/v1/artists/7AbYSzOocUvzy7DSJ9gm68",
-            "id": "7AbYSzOocUvzy7DSJ9gm68",
-            "name": "Manuel Costa",
+            "href": "https://api.spotify.com/v1/artists/3TKCdsX8yNNoiC1gesn6or",
+            "id": "3TKCdsX8yNNoiC1gesn6or",
+            "name": "Ronny J",
             "type": "artist",
-            "uri": "spotify:artist:7AbYSzOocUvzy7DSJ9gm68"
-          }
-        ],
-        "available_markets": [
-          "AD",
-          "AR",
-          "AT",
-          "AU",
-          "BE",
-          "BG",
-          "BO",
-          "BR",
-          "CA",
-          "CH",
-          "CL",
-          "CO",
-          "CR",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "DO",
-          "EC",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GB",
-          "GR",
-          "GT",
-          "HK",
-          "HN",
-          "HU",
-          "ID",
-          "IE",
-          "IL",
-          "IS",
-          "IT",
-          "JP",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MC",
-          "MT",
-          "MX",
-          "MY",
-          "NI",
-          "NL",
-          "NO",
-          "NZ",
-          "PA",
-          "PE",
-          "PH",
-          "PL",
-          "PT",
-          "PY",
-          "RO",
-          "SE",
-          "SG",
-          "SK",
-          "SV",
-          "TH",
-          "TR",
-          "TW",
-          "US",
-          "UY",
-          "VN",
-          "ZA"
-        ],
-        "disc_number": 1,
-        "duration_ms": 199218,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "SE3OH1731570"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/4Sp4RxkWukxqJykl0ySNQi"
-        },
-        "href": "https://api.spotify.com/v1/tracks/4Sp4RxkWukxqJykl0ySNQi",
-        "id": "4Sp4RxkWukxqJykl0ySNQi",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 46,
-        "preview_url": "https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 1,
-        "type": "track",
-        "uri": "spotify:track:4Sp4RxkWukxqJykl0ySNQi"
-      },
-      {
-        "album": {
-          "album_type": "compilation",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
-              },
-              "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
-              "id": "0LyfQWJT6nXafLPZqxe9Of",
-              "name": "Various Artists",
-              "type": "artist",
-              "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
-            }
-          ],
-          "available_markets": [
-            "AD",
-            "AR",
-            "AT",
-            "AU",
-            "BE",
-            "BG",
-            "BO",
-            "BR",
-            "CA",
-            "CH",
-            "CL",
-            "CO",
-            "CR",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "DO",
-            "EC",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GB",
-            "GR",
-            "GT",
-            "HK",
-            "HN",
-            "HU",
-            "ID",
-            "IE",
-            "IL",
-            "IS",
-            "IT",
-            "JP",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MC",
-            "MT",
-            "MX",
-            "MY",
-            "NI",
-            "NL",
-            "NO",
-            "NZ",
-            "PA",
-            "PE",
-            "PH",
-            "PL",
-            "PT",
-            "PY",
-            "RO",
-            "SE",
-            "SG",
-            "SK",
-            "SV",
-            "TH",
-            "TR",
-            "TW",
-            "US",
-            "UY",
-            "VN",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/7LfKQOyYrhtCEqR4rr2J2M"
+            "uri": "spotify:artist:3TKCdsX8yNNoiC1gesn6or"
           },
-          "href": "https://api.spotify.com/v1/albums/7LfKQOyYrhtCEqR4rr2J2M",
-          "id": "7LfKQOyYrhtCEqR4rr2J2M",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/66010204ff99efa1c25bd648b5ccd9b6f16bbdc6",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/3906c639996d732bfdc792640989a23916ec7754",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/e255e3b38b7577c210d3b81fb1fca85772730cf9",
-              "width": 64
-            }
-          ],
-          "name": "Punk Goes Pop",
-          "release_date": "2001-01-01",
-          "release_date_precision": "day",
-          "total_tracks": 17,
-          "type": "album",
-          "uri": "spotify:album:7LfKQOyYrhtCEqR4rr2J2M"
-        },
-        "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/3aKzt9FJXUwqntOj7ZAGT5"
+              "spotify": "https://open.spotify.com/artist/2rhFzFmezpnW82MNqEKVry"
             },
-            "href": "https://api.spotify.com/v1/artists/3aKzt9FJXUwqntOj7ZAGT5",
-            "id": "3aKzt9FJXUwqntOj7ZAGT5",
-            "name": "Dynamite Boy",
+            "href": "https://api.spotify.com/v1/artists/2rhFzFmezpnW82MNqEKVry",
+            "id": "2rhFzFmezpnW82MNqEKVry",
+            "name": "Ski Mask The Slump God",
             "type": "artist",
-            "uri": "spotify:artist:3aKzt9FJXUwqntOj7ZAGT5"
+            "uri": "spotify:artist:2rhFzFmezpnW82MNqEKVry"
           }
         ],
         "available_markets": [
@@ -1238,23 +1881,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 211893,
-        "explicit": false,
+        "duration_ms": 142475,
+        "explicit": true,
         "external_ids": {
-          "isrc": "US5260205301"
+          "isrc": "USAT21704685"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/0F5f29urvisi4TiwJOQZWN"
+          "spotify": "https://open.spotify.com/track/1NP344u1hDp5kdjpf6K7kL"
         },
-        "href": "https://api.spotify.com/v1/tracks/0F5f29urvisi4TiwJOQZWN",
-        "id": "0F5f29urvisi4TiwJOQZWN",
+        "href": "https://api.spotify.com/v1/tracks/1NP344u1hDp5kdjpf6K7kL",
+        "id": "1NP344u1hDp5kdjpf6K7kL",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 41,
-        "preview_url": null,
+        "name": "Thriller (Forever) [feat. Ski Mask The Slump God]",
+        "popularity": 62,
+        "preview_url": "https://p.scdn.co/mp3-preview/0dd51131a5e7f3aabcdd76205c18bdca06472c66?cid=e838ab4e51474c979e58b50762875ce3",
         "track_number": 1,
         "type": "track",
-        "uri": "spotify:track:0F5f29urvisi4TiwJOQZWN"
+        "uri": "spotify:track:1NP344u1hDp5kdjpf6K7kL"
       },
       {
         "album": {
@@ -1262,13 +1905,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/1bDWGdIC2hardyt55nlQgG"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/1bDWGdIC2hardyt55nlQgG",
-              "id": "1bDWGdIC2hardyt55nlQgG",
-              "name": "\"Weird Al\" Yankovic",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:1bDWGdIC2hardyt55nlQgG"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -1339,44 +1982,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/4VzAwj9nYwEqjY6JLaTwCm"
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
           },
-          "href": "https://api.spotify.com/v1/albums/4VzAwj9nYwEqjY6JLaTwCm",
-          "id": "4VzAwj9nYwEqjY6JLaTwCm",
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/87807698a973177c2edea5dc3a987ba9f6a24f12",
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/a38cf586d9bc43cafe0383cfda21b301a714a37d",
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/a3baee5f23f022cce335a8c918a1688e5c31d1ac",
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
               "width": 64
             }
           ],
-          "name": "Poodle Hat",
-          "release_date": "2003-05-20",
+          "name": "Thriller",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 12,
+          "total_tracks": 9,
           "type": "album",
-          "uri": "spotify:album:4VzAwj9nYwEqjY6JLaTwCm"
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/1bDWGdIC2hardyt55nlQgG"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/1bDWGdIC2hardyt55nlQgG",
-            "id": "1bDWGdIC2hardyt55nlQgG",
-            "name": "\"Weird Al\" Yankovic",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:1bDWGdIC2hardyt55nlQgG"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -1447,104 +2090,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 216786,
+        "duration_ms": 239026,
         "explicit": false,
         "external_ids": {
-          "isrc": "USVR10300018"
+          "isrc": "USSM19902993"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK"
+          "spotify": "https://open.spotify.com/track/1CgmY8fVN7kstVDZmsdM5k"
         },
-        "href": "https://api.spotify.com/v1/tracks/4vHb50VkxDzHYwLiHfWczK",
-        "id": "4vHb50VkxDzHYwLiHfWczK",
+        "href": "https://api.spotify.com/v1/tracks/1CgmY8fVN7kstVDZmsdM5k",
+        "id": "1CgmY8fVN7kstVDZmsdM5k",
         "is_local": false,
-        "name": "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)",
-        "popularity": 44,
-        "preview_url": "https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 11,
+        "name": "P.Y.T. (Pretty Young Thing)",
+        "popularity": 62,
+        "preview_url": "https://p.scdn.co/mp3-preview/4b919442d00292086ab30277534cb6f64564c160?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 8,
         "type": "track",
-        "uri": "spotify:track:4vHb50VkxDzHYwLiHfWczK"
-      },
-      {
-        "album": {
-          "album_type": "compilation",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
-              },
-              "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
-              "id": "0LyfQWJT6nXafLPZqxe9Of",
-              "name": "Various Artists",
-              "type": "artist",
-              "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
-            }
-          ],
-          "available_markets": [
-            "US"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/71WupOKqXgSrgg0CivZDHS"
-          },
-          "href": "https://api.spotify.com/v1/albums/71WupOKqXgSrgg0CivZDHS",
-          "id": "71WupOKqXgSrgg0CivZDHS",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/1314e7119229ff67e3804b083a221e09367f33ce",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/0f539eb649660b6a643a367b18c8801df753bfae",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/ed9630cbd1b72178209ca311f1e401ce1e67a5a3",
-              "width": 64
-            }
-          ],
-          "name": "90 Sweet 90s Hits!",
-          "release_date": "2014-06-10",
-          "release_date_precision": "day",
-          "total_tracks": 90,
-          "type": "album",
-          "uri": "spotify:album:71WupOKqXgSrgg0CivZDHS"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
-            },
-            "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-            "id": "5rSXSAkZ67PYJSvpUpkOr7",
-            "name": "Backstreet Boys",
-            "type": "artist",
-            "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
-          }
-        ],
-        "available_markets": [
-          "US"
-        ],
-        "disc_number": 1,
-        "duration_ms": 213306,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "USJI19910614"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/1zCiqxhampG4dcC7HEqPu5"
-        },
-        "href": "https://api.spotify.com/v1/tracks/1zCiqxhampG4dcC7HEqPu5",
-        "id": "1zCiqxhampG4dcC7HEqPu5",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 35,
-        "preview_url": "https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 24,
-        "type": "track",
-        "uri": "spotify:track:1zCiqxhampG4dcC7HEqPu5"
+        "uri": "spotify:track:1CgmY8fVN7kstVDZmsdM5k"
       },
       {
         "album": {
@@ -1552,33 +2114,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/4BjHiejt4AKg6BHeCjtAcF"
+                "spotify": "https://open.spotify.com/artist/4UXqAaa6dQYAk18Lv7PEgX"
               },
-              "href": "https://api.spotify.com/v1/artists/4BjHiejt4AKg6BHeCjtAcF",
-              "id": "4BjHiejt4AKg6BHeCjtAcF",
-              "name": "NKOTBSB",
+              "href": "https://api.spotify.com/v1/artists/4UXqAaa6dQYAk18Lv7PEgX",
+              "id": "4UXqAaa6dQYAk18Lv7PEgX",
+              "name": "Fall Out Boy",
               "type": "artist",
-              "uri": "spotify:artist:4BjHiejt4AKg6BHeCjtAcF"
-            },
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/55qiaow2sDYtjqu1mwRua6"
-              },
-              "href": "https://api.spotify.com/v1/artists/55qiaow2sDYtjqu1mwRua6",
-              "id": "55qiaow2sDYtjqu1mwRua6",
-              "name": "New Kids On The Block",
-              "type": "artist",
-              "uri": "spotify:artist:55qiaow2sDYtjqu1mwRua6"
-            },
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
-              },
-              "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-              "id": "5rSXSAkZ67PYJSvpUpkOr7",
-              "name": "Backstreet Boys",
-              "type": "artist",
-              "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+              "uri": "spotify:artist:4UXqAaa6dQYAk18Lv7PEgX"
             }
           ],
           "available_markets": [
@@ -1623,7 +2165,6 @@
             "LV",
             "MC",
             "MT",
-            "MX",
             "MY",
             "NI",
             "NL",
@@ -1649,44 +2190,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/5Zwuaan4RIS108lyMEYYmw"
+            "spotify": "https://open.spotify.com/album/0hHopYqXhuvYSHtVyrcb1g"
           },
-          "href": "https://api.spotify.com/v1/albums/5Zwuaan4RIS108lyMEYYmw",
-          "id": "5Zwuaan4RIS108lyMEYYmw",
+          "href": "https://api.spotify.com/v1/albums/0hHopYqXhuvYSHtVyrcb1g",
+          "id": "0hHopYqXhuvYSHtVyrcb1g",
           "images": [
             {
               "height": 636,
-              "url": "https://i.scdn.co/image/d3aae27384cc4237190a4c1b337033200c8bee1f",
+              "url": "https://i.scdn.co/image/2c832894cfa5c9861b7837150d78c30fd8ad790b",
               "width": 640
             },
             {
               "height": 298,
-              "url": "https://i.scdn.co/image/f826301292551175d5a31078f939c3ba9ce24a9c",
+              "url": "https://i.scdn.co/image/d1b7106f60bf0c80c90aa7a49f23d611f3a9b00c",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/12f27f7fd20d61c2d9ad429e94fb0a3a663cbbdf",
+              "url": "https://i.scdn.co/image/be518df921a533109a69742daad418a06222d408",
               "width": 64
             }
           ],
-          "name": "NKOTBSB",
-          "release_date": "2011-05-24",
+          "name": "Infinity On High (Deluxe Edition)",
+          "release_date": "2007-01-01",
           "release_date_precision": "day",
-          "total_tracks": 13,
+          "total_tracks": 19,
           "type": "album",
-          "uri": "spotify:album:5Zwuaan4RIS108lyMEYYmw"
+          "uri": "spotify:album:0hHopYqXhuvYSHtVyrcb1g"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+              "spotify": "https://open.spotify.com/artist/4UXqAaa6dQYAk18Lv7PEgX"
             },
-            "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-            "id": "5rSXSAkZ67PYJSvpUpkOr7",
-            "name": "Backstreet Boys",
+            "href": "https://api.spotify.com/v1/artists/4UXqAaa6dQYAk18Lv7PEgX",
+            "id": "4UXqAaa6dQYAk18Lv7PEgX",
+            "name": "Fall Out Boy",
             "type": "artist",
-            "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
+            "uri": "spotify:artist:4UXqAaa6dQYAk18Lv7PEgX"
           }
         ],
         "available_markets": [
@@ -1731,7 +2272,6 @@
           "LV",
           "MC",
           "MT",
-          "MX",
           "MY",
           "NI",
           "NL",
@@ -1757,498 +2297,37 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 213453,
+        "duration_ms": 209720,
         "explicit": false,
         "external_ids": {
-          "isrc": "USJI19910614"
+          "isrc": "USUM70700328"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/2KMwtsWwL5QDtSpm814tju"
+          "spotify": "https://open.spotify.com/track/07kBp5VuebubsozpQd3nyK"
         },
-        "href": "https://api.spotify.com/v1/tracks/2KMwtsWwL5QDtSpm814tju",
-        "id": "2KMwtsWwL5QDtSpm814tju",
+        "href": "https://api.spotify.com/v1/tracks/07kBp5VuebubsozpQd3nyK",
+        "id": "07kBp5VuebubsozpQd3nyK",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 41,
-        "preview_url": "https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 2,
-        "type": "track",
-        "uri": "spotify:track:2KMwtsWwL5QDtSpm814tju"
-      },
-      {
-        "album": {
-          "album_type": "single",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/0SCbttzoZTnLFebDYmAWCm"
-              },
-              "href": "https://api.spotify.com/v1/artists/0SCbttzoZTnLFebDYmAWCm",
-              "id": "0SCbttzoZTnLFebDYmAWCm",
-              "name": "Glee Cast",
-              "type": "artist",
-              "uri": "spotify:artist:0SCbttzoZTnLFebDYmAWCm"
-            }
-          ],
-          "available_markets": [
-            "AT",
-            "AU",
-            "BR",
-            "CA",
-            "CH",
-            "DE",
-            "EE",
-            "FI",
-            "GB",
-            "IE",
-            "JP",
-            "LI",
-            "LT",
-            "LV",
-            "MX",
-            "NZ",
-            "PH",
-            "SE",
-            "SG",
-            "US"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/1sFs6ZD66GxP9g8kcwISh1"
-          },
-          "href": "https://api.spotify.com/v1/albums/1sFs6ZD66GxP9g8kcwISh1",
-          "id": "1sFs6ZD66GxP9g8kcwISh1",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/c1ad34b5058aca8e7559582499c6fd94d33fc3b4",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/dda7824109c0657054ef77ecc2a2cd310d8729a2",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/6205294ea4e42ab91a113a789cac3000e57cf31d",
-              "width": 64
-            }
-          ],
-          "name": "Bye Bye Bye / I Want It That Way (Glee Cast Version)",
-          "release_date": "2013-03-19",
-          "release_date_precision": "day",
-          "total_tracks": 1,
-          "type": "album",
-          "uri": "spotify:album:1sFs6ZD66GxP9g8kcwISh1"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/0SCbttzoZTnLFebDYmAWCm"
-            },
-            "href": "https://api.spotify.com/v1/artists/0SCbttzoZTnLFebDYmAWCm",
-            "id": "0SCbttzoZTnLFebDYmAWCm",
-            "name": "Glee Cast",
-            "type": "artist",
-            "uri": "spotify:artist:0SCbttzoZTnLFebDYmAWCm"
-          }
-        ],
-        "available_markets": [
-          "AT",
-          "AU",
-          "BR",
-          "CA",
-          "CH",
-          "DE",
-          "EE",
-          "FI",
-          "GB",
-          "IE",
-          "JP",
-          "LI",
-          "LT",
-          "LV",
-          "MX",
-          "NZ",
-          "PH",
-          "SE",
-          "SG",
-          "US"
-        ],
-        "disc_number": 1,
-        "duration_ms": 169426,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "USQX91300367"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP"
-        },
-        "href": "https://api.spotify.com/v1/tracks/3t7m7AzV2ntuI9fIT6KREP",
-        "id": "3t7m7AzV2ntuI9fIT6KREP",
-        "is_local": false,
-        "name": "Bye Bye Bye / I Want It That Way (Glee Cast Version)",
-        "popularity": 43,
-        "preview_url": "https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 1,
-        "type": "track",
-        "uri": "spotify:track:3t7m7AzV2ntuI9fIT6KREP"
-      },
-      {
-        "album": {
-          "album_type": "album",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/7CQwac16i1W5ej8YpuL3dv"
-              },
-              "href": "https://api.spotify.com/v1/artists/7CQwac16i1W5ej8YpuL3dv",
-              "id": "7CQwac16i1W5ej8YpuL3dv",
-              "name": "Boyce Avenue",
-              "type": "artist",
-              "uri": "spotify:artist:7CQwac16i1W5ej8YpuL3dv"
-            }
-          ],
-          "available_markets": [
-            "AD",
-            "AR",
-            "AT",
-            "AU",
-            "BE",
-            "BG",
-            "BO",
-            "BR",
-            "CA",
-            "CH",
-            "CL",
-            "CO",
-            "CR",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "DO",
-            "EC",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GB",
-            "GR",
-            "GT",
-            "HK",
-            "HN",
-            "HU",
-            "ID",
-            "IE",
-            "IL",
-            "IS",
-            "IT",
-            "JP",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MC",
-            "MT",
-            "MX",
-            "MY",
-            "NI",
-            "NL",
-            "NO",
-            "NZ",
-            "PA",
-            "PE",
-            "PH",
-            "PL",
-            "PT",
-            "PY",
-            "RO",
-            "SE",
-            "SG",
-            "SK",
-            "SV",
-            "TH",
-            "TR",
-            "TW",
-            "US",
-            "UY",
-            "VN",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/7hh9qCfFuLlaMpjCMzTiZz"
-          },
-          "href": "https://api.spotify.com/v1/albums/7hh9qCfFuLlaMpjCMzTiZz",
-          "id": "7hh9qCfFuLlaMpjCMzTiZz",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/ea141e23f9cac9e6b0178c4e2f6cb61c347157a7",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/b3ab6a42f457ce1800e20659b28ea69e8cdc93f2",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/d8d7215fc1c06bb24f4ab15d84ff5ec79068dc9c",
-              "width": 64
-            }
-          ],
-          "name": "Cover Sessions, Vol. 2",
-          "release_date": "2012-07-24",
-          "release_date_precision": "day",
-          "total_tracks": 57,
-          "type": "album",
-          "uri": "spotify:album:7hh9qCfFuLlaMpjCMzTiZz"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/7CQwac16i1W5ej8YpuL3dv"
-            },
-            "href": "https://api.spotify.com/v1/artists/7CQwac16i1W5ej8YpuL3dv",
-            "id": "7CQwac16i1W5ej8YpuL3dv",
-            "name": "Boyce Avenue",
-            "type": "artist",
-            "uri": "spotify:artist:7CQwac16i1W5ej8YpuL3dv"
-          }
-        ],
-        "available_markets": [
-          "AD",
-          "AR",
-          "AT",
-          "AU",
-          "BE",
-          "BG",
-          "BO",
-          "BR",
-          "CA",
-          "CH",
-          "CL",
-          "CO",
-          "CR",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "DO",
-          "EC",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GB",
-          "GR",
-          "GT",
-          "HK",
-          "HN",
-          "HU",
-          "ID",
-          "IE",
-          "IL",
-          "IS",
-          "IT",
-          "JP",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MC",
-          "MT",
-          "MX",
-          "MY",
-          "NI",
-          "NL",
-          "NO",
-          "NZ",
-          "PA",
-          "PE",
-          "PH",
-          "PL",
-          "PT",
-          "PY",
-          "RO",
-          "SE",
-          "SG",
-          "SK",
-          "SV",
-          "TH",
-          "TR",
-          "TW",
-          "US",
-          "UY",
-          "VN",
-          "ZA"
-        ],
-        "disc_number": 1,
-        "duration_ms": 215161,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "USM951200015"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx"
-        },
-        "href": "https://api.spotify.com/v1/tracks/16COzZ7jCVn3O8b8ZgviOx",
-        "id": "16COzZ7jCVn3O8b8ZgviOx",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 47,
-        "preview_url": "https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 55,
-        "type": "track",
-        "uri": "spotify:track:16COzZ7jCVn3O8b8ZgviOx"
-      },
-      {
-        "album": {
-          "album_type": "single",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/3l02WF362j1oHOurzuseBv"
-              },
-              "href": "https://api.spotify.com/v1/artists/3l02WF362j1oHOurzuseBv",
-              "id": "3l02WF362j1oHOurzuseBv",
-              "name": "Steel Panther",
-              "type": "artist",
-              "uri": "spotify:artist:3l02WF362j1oHOurzuseBv"
-            }
-          ],
-          "available_markets": [
-            "AR",
-            "BE",
-            "BR",
-            "CA",
-            "CH",
-            "CZ",
-            "DK",
-            "EE",
-            "FI",
-            "HU",
-            "IL",
-            "IS",
-            "LT",
-            "LU",
-            "LV",
-            "NO",
-            "PT",
-            "SE",
-            "SK",
-            "TR",
-            "US",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/0cKszqNmOM9mjoiKqR9BIS"
-          },
-          "href": "https://api.spotify.com/v1/albums/0cKszqNmOM9mjoiKqR9BIS",
-          "id": "0cKszqNmOM9mjoiKqR9BIS",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/c8d8d5d9977e5464e0e66ca68adbe8d159512df8",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/af0590b8cf2c45783c8f00ac6e8b9c7ac6741b33",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/154f58fcfb96643f4285157c14ad3c651d144cc5",
-              "width": 64
-            }
-          ],
-          "name": "I Want It That Way",
-          "release_date": "2010-01-01",
-          "release_date_precision": "day",
-          "total_tracks": 1,
-          "type": "album",
-          "uri": "spotify:album:0cKszqNmOM9mjoiKqR9BIS"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/3l02WF362j1oHOurzuseBv"
-            },
-            "href": "https://api.spotify.com/v1/artists/3l02WF362j1oHOurzuseBv",
-            "id": "3l02WF362j1oHOurzuseBv",
-            "name": "Steel Panther",
-            "type": "artist",
-            "uri": "spotify:artist:3l02WF362j1oHOurzuseBv"
-          }
-        ],
-        "available_markets": [
-          "AR",
-          "BE",
-          "BR",
-          "CA",
-          "CH",
-          "CZ",
-          "DK",
-          "EE",
-          "FI",
-          "HU",
-          "IL",
-          "IS",
-          "LT",
-          "LU",
-          "LV",
-          "NO",
-          "PT",
-          "SE",
-          "SK",
-          "TR",
-          "US",
-          "ZA"
-        ],
-        "disc_number": 1,
-        "duration_ms": 168080,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "USUM71014566"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/0448cNUvZGCAlUpIPO5kdY"
-        },
-        "href": "https://api.spotify.com/v1/tracks/0448cNUvZGCAlUpIPO5kdY",
-        "id": "0448cNUvZGCAlUpIPO5kdY",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 33,
+        "name": "Thriller",
+        "popularity": 53,
         "preview_url": null,
         "track_number": 1,
         "type": "track",
-        "uri": "spotify:track:0448cNUvZGCAlUpIPO5kdY"
+        "uri": "spotify:track:07kBp5VuebubsozpQd3nyK"
       },
       {
         "album": {
-          "album_type": "single",
+          "album_type": "album",
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/2WROyFfIOmKtRopsTrIL52"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/2WROyFfIOmKtRopsTrIL52",
-              "id": "2WROyFfIOmKtRopsTrIL52",
-              "name": "Landon Austin",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:2WROyFfIOmKtRopsTrIL52"
-            },
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/4jHWpUyRI2rzJVimtasEBF"
-              },
-              "href": "https://api.spotify.com/v1/artists/4jHWpUyRI2rzJVimtasEBF",
-              "id": "4jHWpUyRI2rzJVimtasEBF",
-              "name": "Julia Sheer",
-              "type": "artist",
-              "uri": "spotify:artist:4jHWpUyRI2rzJVimtasEBF"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -2319,44 +2398,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/6sBR6yebVg4PX9ZzlgR4rr"
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
           },
-          "href": "https://api.spotify.com/v1/albums/6sBR6yebVg4PX9ZzlgR4rr",
-          "id": "6sBR6yebVg4PX9ZzlgR4rr",
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/997db45c82cd645054bdc451195894bc318da3db",
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/065e6d68e8939ac9a4c058e00c84bea3fbbf5cbe",
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/db0d25dfcc63be3d374083144a5e16800f59da26",
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
               "width": 64
             }
           ],
-          "name": "I Want It That Way",
-          "release_date": "2013-05-01",
+          "name": "Thriller",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 1,
+          "total_tracks": 9,
           "type": "album",
-          "uri": "spotify:album:6sBR6yebVg4PX9ZzlgR4rr"
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/7v7ZHMKWTZiq4btxQHZSeP"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/7v7ZHMKWTZiq4btxQHZSeP",
-            "id": "7v7ZHMKWTZiq4btxQHZSeP",
-            "name": "Landon Austin & Julia Sheer",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:7v7ZHMKWTZiq4btxQHZSeP"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -2427,23 +2506,232 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 184007,
+        "duration_ms": 294226,
         "explicit": false,
         "external_ids": {
-          "isrc": "TCABN1382516"
+          "isrc": "USSM19902991"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/1zUJq8Ap2u9MyDo0HJxVU5"
+          "spotify": "https://open.spotify.com/track/7J1uxwnxfQLu4APicE5Rnj"
         },
-        "href": "https://api.spotify.com/v1/tracks/1zUJq8Ap2u9MyDo0HJxVU5",
-        "id": "1zUJq8Ap2u9MyDo0HJxVU5",
+        "href": "https://api.spotify.com/v1/tracks/7J1uxwnxfQLu4APicE5Rnj",
+        "id": "7J1uxwnxfQLu4APicE5Rnj",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 35,
-        "preview_url": "https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=e838ab4e51474c979e58b50762875ce3",
+        "name": "Billie Jean",
+        "popularity": 62,
+        "preview_url": "https://p.scdn.co/mp3-preview/fdfa0fe346a16b6aeb8136e6d2b7e11cacc6a06d?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 6,
+        "type": "track",
+        "uri": "spotify:track:7J1uxwnxfQLu4APicE5Rnj"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
+          },
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
+          "images": [
+            {
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
+              "width": 640
+            },
+            {
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
+              "width": 300
+            },
+            {
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
+              "width": 64
+            }
+          ],
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 30,
+          "type": "album",
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 362373,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902986"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/2kulOHR2XY6YDZCWXb38hn"
+        },
+        "href": "https://api.spotify.com/v1/tracks/2kulOHR2XY6YDZCWXb38hn",
+        "id": "2kulOHR2XY6YDZCWXb38hn",
+        "is_local": false,
+        "name": "Wanna Be Startin' Somethin'",
+        "popularity": 66,
+        "preview_url": "https://p.scdn.co/mp3-preview/d18b4563e3d177024867161d7be84baa844ecfc9?cid=e838ab4e51474c979e58b50762875ce3",
         "track_number": 1,
         "type": "track",
-        "uri": "spotify:track:1zUJq8Ap2u9MyDo0HJxVU5"
+        "uri": "spotify:track:2kulOHR2XY6YDZCWXb38hn"
       },
       {
         "album": {
@@ -2451,13 +2739,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/1e16kiJQtCTveTl7TQnkFN"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/1e16kiJQtCTveTl7TQnkFN",
-              "id": "1e16kiJQtCTveTl7TQnkFN",
-              "name": "Scary Pockets",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:1e16kiJQtCTveTl7TQnkFN"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -2528,54 +2816,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/5RUgGybyrfKUKE5hBTKLum"
+            "spotify": "https://open.spotify.com/album/1C2h7mLntPSeVYciMRTF4a"
           },
-          "href": "https://api.spotify.com/v1/albums/5RUgGybyrfKUKE5hBTKLum",
-          "id": "5RUgGybyrfKUKE5hBTKLum",
+          "href": "https://api.spotify.com/v1/albums/1C2h7mLntPSeVYciMRTF4a",
+          "id": "1C2h7mLntPSeVYciMRTF4a",
           "images": [
             {
-              "height": 640,
-              "url": "https://i.scdn.co/image/15e69f99361511820330fdaf9e5aee47a670aa6e",
+              "height": 568,
+              "url": "https://i.scdn.co/image/3c294000d8739af300d9a842934d6f7e090471c7",
               "width": 640
             },
             {
-              "height": 300,
-              "url": "https://i.scdn.co/image/76e2876ed1a401e5a72e6a32e6678b4d54c02ff0",
+              "height": 266,
+              "url": "https://i.scdn.co/image/d50dab8e3338d47ddc84195a0779b6b80704f8c5",
               "width": 300
             },
             {
-              "height": 64,
-              "url": "https://i.scdn.co/image/b0b6b9c0b04374eda7989b2a7f1adae9e87934af",
+              "height": 57,
+              "url": "https://i.scdn.co/image/eb2b6bb819fd2b1795acd65efc8e1a975c487afc",
               "width": 64
             }
           ],
-          "name": "Nu Funk",
-          "release_date": "2017-11-13",
+          "name": "Thriller 25 Super Deluxe Edition",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 10,
+          "total_tracks": 30,
           "type": "album",
-          "uri": "spotify:album:5RUgGybyrfKUKE5hBTKLum"
+          "uri": "spotify:album:1C2h7mLntPSeVYciMRTF4a"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/1e16kiJQtCTveTl7TQnkFN"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/1e16kiJQtCTveTl7TQnkFN",
-            "id": "1e16kiJQtCTveTl7TQnkFN",
-            "name": "Scary Pockets",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:1e16kiJQtCTveTl7TQnkFN"
-          },
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/1UxNUybRFdtksz3l5HtCEG"
-            },
-            "href": "https://api.spotify.com/v1/artists/1UxNUybRFdtksz3l5HtCEG",
-            "id": "1UxNUybRFdtksz3l5HtCEG",
-            "name": "Casey Abrams",
-            "type": "artist",
-            "uri": "spotify:artist:1UxNUybRFdtksz3l5HtCEG"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -2646,23 +2924,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 167276,
+        "duration_ms": 245560,
         "explicit": false,
         "external_ids": {
-          "isrc": "QZANL1743814"
+          "isrc": "USSM19902992"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr"
+          "spotify": "https://open.spotify.com/track/35lAjvsvS9k9HHuP1fjDT8"
         },
-        "href": "https://api.spotify.com/v1/tracks/4IWQXV01Lp0wsXCXo09EBr",
-        "id": "4IWQXV01Lp0wsXCXo09EBr",
+        "href": "https://api.spotify.com/v1/tracks/35lAjvsvS9k9HHuP1fjDT8",
+        "id": "35lAjvsvS9k9HHuP1fjDT8",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 35,
-        "preview_url": "https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 9,
+        "name": "Human Nature",
+        "popularity": 66,
+        "preview_url": "https://p.scdn.co/mp3-preview/a02a6ddf6152b09f9b9dd456a2edf484b0377f7c?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 7,
         "type": "track",
-        "uri": "spotify:track:4IWQXV01Lp0wsXCXo09EBr"
+        "uri": "spotify:track:35lAjvsvS9k9HHuP1fjDT8"
       },
       {
         "album": {
@@ -2670,13 +2948,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5HYNPEO2NNBONQkp3Mvwvc"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/5HYNPEO2NNBONQkp3Mvwvc",
-              "id": "5HYNPEO2NNBONQkp3Mvwvc",
-              "name": "Scott Bradlee's Postmodern Jukebox",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:5HYNPEO2NNBONQkp3Mvwvc"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -2747,54 +3025,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/1jRyMHSkbnP8GwptMnh66z"
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
           },
-          "href": "https://api.spotify.com/v1/albums/1jRyMHSkbnP8GwptMnh66z",
-          "id": "1jRyMHSkbnP8GwptMnh66z",
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/db43b39497ff8d71dee0370b092ac4b9c812ddc2",
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/debcf2a745d47e4ad297ef54f417b074fa5bf8c0",
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/b02a32eac5fd2893468b8032757700b6f4f5e392",
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
               "width": 64
             }
           ],
-          "name": "Selfies on Kodachrome",
-          "release_date": "2015-01-13",
+          "name": "Thriller",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 15,
+          "total_tracks": 9,
           "type": "album",
-          "uri": "spotify:album:1jRyMHSkbnP8GwptMnh66z"
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5HYNPEO2NNBONQkp3Mvwvc"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/5HYNPEO2NNBONQkp3Mvwvc",
-            "id": "5HYNPEO2NNBONQkp3Mvwvc",
-            "name": "Scott Bradlee's Postmodern Jukebox",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:5HYNPEO2NNBONQkp3Mvwvc"
-          },
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/3f6n3RzZESaZnpoKit0Sk5"
-            },
-            "href": "https://api.spotify.com/v1/artists/3f6n3RzZESaZnpoKit0Sk5",
-            "id": "3f6n3RzZESaZnpoKit0Sk5",
-            "name": "Shoshana Bean",
-            "type": "artist",
-            "uri": "spotify:artist:3f6n3RzZESaZnpoKit0Sk5"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -2865,23 +3133,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 192289,
+        "duration_ms": 246040,
         "explicit": false,
         "external_ids": {
-          "isrc": "GBDMT1500008"
+          "isrc": "USSM19902992"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM"
+          "spotify": "https://open.spotify.com/track/4cgjA7B4fJBHyB9Ya2bu0t"
         },
-        "href": "https://api.spotify.com/v1/tracks/1Le3uYU5NU9cXXtYeSWnEM",
-        "id": "1Le3uYU5NU9cXXtYeSWnEM",
+        "href": "https://api.spotify.com/v1/tracks/4cgjA7B4fJBHyB9Ya2bu0t",
+        "id": "4cgjA7B4fJBHyB9Ya2bu0t",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 34,
-        "preview_url": "https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 9,
+        "name": "Human Nature",
+        "popularity": 58,
+        "preview_url": "https://p.scdn.co/mp3-preview/d13c6034c6c9eddab4ef188a2da87201b71767aa?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 7,
         "type": "track",
-        "uri": "spotify:track:1Le3uYU5NU9cXXtYeSWnEM"
+        "uri": "spotify:track:4cgjA7B4fJBHyB9Ya2bu0t"
       },
       {
         "album": {
@@ -2889,202 +3157,119 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
-              "id": "0LyfQWJT6nXafLPZqxe9Of",
-              "name": "Various Artists",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
-            "US"
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/4VyzyexBobu0w5hS3Bcmrg"
+            "spotify": "https://open.spotify.com/album/1jcYwZsN7JEve9xsq9BuUX"
           },
-          "href": "https://api.spotify.com/v1/albums/4VyzyexBobu0w5hS3Bcmrg",
-          "id": "4VyzyexBobu0w5hS3Bcmrg",
+          "href": "https://api.spotify.com/v1/albums/1jcYwZsN7JEve9xsq9BuUX",
+          "id": "1jcYwZsN7JEve9xsq9BuUX",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/0c8836fea1d5c22d4b8cc32a8e0e687333578b5f",
+              "url": "https://i.scdn.co/image/f54843c1e3b893300cb7f8cf4ab93d9dfc876499",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/0a2f1b31bbf10a9b41224660b1ba0dbdabf468fc",
+              "url": "https://i.scdn.co/image/6ab0012e7f15c2e869ba67fffd733f2c16a33da5",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/3e14d0b0b1f3e6fbf09b6e3fa69a9390bc530821",
+              "url": "https://i.scdn.co/image/8d56ba846e9c22416f662c83a7469fd20ddc13df",
               "width": 64
             }
           ],
-          "name": "NOW That's What I Call 90s Pop",
-          "release_date": "2017-01-27",
+          "name": "Number Ones",
+          "release_date": "2003-11-18",
           "release_date_precision": "day",
           "total_tracks": 18,
           "type": "album",
-          "uri": "spotify:album:4VyzyexBobu0w5hS3Bcmrg"
+          "uri": "spotify:album:1jcYwZsN7JEve9xsq9BuUX"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/5rSXSAkZ67PYJSvpUpkOr7",
-            "id": "5rSXSAkZ67PYJSvpUpkOr7",
-            "name": "Backstreet Boys",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:5rSXSAkZ67PYJSvpUpkOr7"
-          }
-        ],
-        "available_markets": [
-          "US"
-        ],
-        "disc_number": 1,
-        "duration_ms": 212893,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "USJI19910614"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/75W4IDdKhHvRQZpaDx9YPg"
-        },
-        "href": "https://api.spotify.com/v1/tracks/75W4IDdKhHvRQZpaDx9YPg",
-        "id": "75W4IDdKhHvRQZpaDx9YPg",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 25,
-        "preview_url": "https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 18,
-        "type": "track",
-        "uri": "spotify:track:75W4IDdKhHvRQZpaDx9YPg"
-      },
-      {
-        "album": {
-          "album_type": "compilation",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/1bDWGdIC2hardyt55nlQgG"
-              },
-              "href": "https://api.spotify.com/v1/artists/1bDWGdIC2hardyt55nlQgG",
-              "id": "1bDWGdIC2hardyt55nlQgG",
-              "name": "\"Weird Al\" Yankovic",
-              "type": "artist",
-              "uri": "spotify:artist:1bDWGdIC2hardyt55nlQgG"
-            }
-          ],
-          "available_markets": [
-            "AD",
-            "AR",
-            "AT",
-            "AU",
-            "BE",
-            "BG",
-            "BO",
-            "BR",
-            "CA",
-            "CH",
-            "CL",
-            "CO",
-            "CR",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "DO",
-            "EC",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GB",
-            "GR",
-            "GT",
-            "HK",
-            "HN",
-            "HU",
-            "ID",
-            "IE",
-            "IL",
-            "IS",
-            "IT",
-            "JP",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MC",
-            "MT",
-            "MX",
-            "MY",
-            "NI",
-            "NL",
-            "NO",
-            "NZ",
-            "PA",
-            "PE",
-            "PH",
-            "PL",
-            "PT",
-            "PY",
-            "RO",
-            "SE",
-            "SG",
-            "SK",
-            "SV",
-            "TH",
-            "TR",
-            "TW",
-            "US",
-            "UY",
-            "VN",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/2WMY5Qm6ztMQsAubpumeb4"
-          },
-          "href": "https://api.spotify.com/v1/albums/2WMY5Qm6ztMQsAubpumeb4",
-          "id": "2WMY5Qm6ztMQsAubpumeb4",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/d44c758eba1bdc32a8d28079c881de10790bc7e2",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/2c203442bf5c5987147e4c65825ef339b2463645",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/d1955f04114cd7bba610fe2227557111c174453c",
-              "width": 64
-            }
-          ],
-          "name": "The Essential \"Weird Al\" Yankovic",
-          "release_date": "2009",
-          "release_date_precision": "year",
-          "total_tracks": 38,
-          "type": "album",
-          "uri": "spotify:album:2WMY5Qm6ztMQsAubpumeb4"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/1bDWGdIC2hardyt55nlQgG"
-            },
-            "href": "https://api.spotify.com/v1/artists/1bDWGdIC2hardyt55nlQgG",
-            "id": "1bDWGdIC2hardyt55nlQgG",
-            "name": "\"Weird Al\" Yankovic",
-            "type": "artist",
-            "uri": "spotify:artist:1bDWGdIC2hardyt55nlQgG"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -3092,7 +3277,6 @@
           "AR",
           "AT",
           "AU",
-          "BE",
           "BG",
           "BO",
           "BR",
@@ -3125,7 +3309,6 @@
           "JP",
           "LI",
           "LT",
-          "LU",
           "LV",
           "MC",
           "MT",
@@ -3154,24 +3337,24 @@
           "VN",
           "ZA"
         ],
-        "disc_number": 2,
-        "duration_ms": 215573,
+        "disc_number": 1,
+        "duration_ms": 311440,
         "explicit": false,
         "external_ids": {
-          "isrc": "USVR10300018"
+          "isrc": "USSM10313532"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/1vaico2C72imYowF4Kv04V"
+          "spotify": "https://open.spotify.com/track/0wQy2OO7jKjm0OOmA7gv3f"
         },
-        "href": "https://api.spotify.com/v1/tracks/1vaico2C72imYowF4Kv04V",
-        "id": "1vaico2C72imYowF4Kv04V",
+        "href": "https://api.spotify.com/v1/tracks/0wQy2OO7jKjm0OOmA7gv3f",
+        "id": "0wQy2OO7jKjm0OOmA7gv3f",
         "is_local": false,
-        "name": "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)",
-        "popularity": 34,
-        "preview_url": "https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 10,
+        "name": "Thriller - 2003 Edit",
+        "popularity": 60,
+        "preview_url": "https://p.scdn.co/mp3-preview/ff3fdb30e2997ac3959016392e0f9418dee79780?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 5,
         "type": "track",
-        "uri": "spotify:track:1vaico2C72imYowF4Kv04V"
+        "uri": "spotify:track:0wQy2OO7jKjm0OOmA7gv3f"
       },
       {
         "album": {
@@ -3179,13 +3362,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/283labP4pvBfnIeozzFzR3"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/283labP4pvBfnIeozzFzR3",
-              "id": "283labP4pvBfnIeozzFzR3",
-              "name": "#90s Update",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:283labP4pvBfnIeozzFzR3"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -3256,44 +3439,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/58NjaJdMt512amLTyVRKpe"
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
           },
-          "href": "https://api.spotify.com/v1/albums/58NjaJdMt512amLTyVRKpe",
-          "id": "58NjaJdMt512amLTyVRKpe",
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/c6e7ed8d731eeb97c0e7ecde26136607465317e9",
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/f96e66510e2abc59f94b8d9d3312223f2603d09f",
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/9b95ef9aef59b72c416fc67018f2396a6fdc4106",
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
               "width": 64
             }
           ],
-          "name": "#90s Update",
-          "release_date": "2017-07-28",
+          "name": "Thriller",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 12,
+          "total_tracks": 9,
           "type": "album",
-          "uri": "spotify:album:58NjaJdMt512amLTyVRKpe"
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/283labP4pvBfnIeozzFzR3"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/283labP4pvBfnIeozzFzR3",
-            "id": "283labP4pvBfnIeozzFzR3",
-            "name": "#90s Update",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:283labP4pvBfnIeozzFzR3"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -3364,23 +3547,23 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 180160,
+        "duration_ms": 258399,
         "explicit": false,
         "external_ids": {
-          "isrc": "DEA621700116"
+          "isrc": "USSM19902990"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/0rZTeneJh7IM5SdoabMcYA"
+          "spotify": "https://open.spotify.com/track/3BovdzfaX4jb5KFQwoPfAw"
         },
-        "href": "https://api.spotify.com/v1/tracks/0rZTeneJh7IM5SdoabMcYA",
-        "id": "0rZTeneJh7IM5SdoabMcYA",
+        "href": "https://api.spotify.com/v1/tracks/3BovdzfaX4jb5KFQwoPfAw",
+        "id": "3BovdzfaX4jb5KFQwoPfAw",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 57,
-        "preview_url": "https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 12,
+        "name": "Beat It - Single Version",
+        "popularity": 59,
+        "preview_url": "https://p.scdn.co/mp3-preview/1c1b574766d6cacb669cd3e9b9309b9f5ed2b6e3?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 5,
         "type": "track",
-        "uri": "spotify:track:0rZTeneJh7IM5SdoabMcYA"
+        "uri": "spotify:track:3BovdzfaX4jb5KFQwoPfAw"
       },
       {
         "album": {
@@ -3388,13 +3571,13 @@
           "artists": [
             {
               "external_urls": {
-                "spotify": "https://open.spotify.com/artist/5HYNPEO2NNBONQkp3Mvwvc"
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
               },
-              "href": "https://api.spotify.com/v1/artists/5HYNPEO2NNBONQkp3Mvwvc",
-              "id": "5HYNPEO2NNBONQkp3Mvwvc",
-              "name": "Scott Bradlee's Postmodern Jukebox",
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
               "type": "artist",
-              "uri": "spotify:artist:5HYNPEO2NNBONQkp3Mvwvc"
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
             }
           ],
           "available_markets": [
@@ -3465,54 +3648,44 @@
             "ZA"
           ],
           "external_urls": {
-            "spotify": "https://open.spotify.com/album/3ML7JPnFJCwqWQ9593iNW8"
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
           },
-          "href": "https://api.spotify.com/v1/albums/3ML7JPnFJCwqWQ9593iNW8",
-          "id": "3ML7JPnFJCwqWQ9593iNW8",
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
           "images": [
             {
               "height": 640,
-              "url": "https://i.scdn.co/image/9cc79c434c6cdd86e4b762c49e25a8b88ad3275b",
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
               "width": 640
             },
             {
               "height": 300,
-              "url": "https://i.scdn.co/image/ce40d6c0eb9e58228822bf557805b023105b95f0",
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
               "width": 300
             },
             {
               "height": 64,
-              "url": "https://i.scdn.co/image/7524050abef1b111e14e8be7db6379580222d17f",
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
               "width": 64
             }
           ],
-          "name": "PMJ Is For Lovers: The Love Song Collection",
-          "release_date": "2016-01-21",
+          "name": "Thriller",
+          "release_date": "1982-11-30",
           "release_date_precision": "day",
-          "total_tracks": 13,
+          "total_tracks": 9,
           "type": "album",
-          "uri": "spotify:album:3ML7JPnFJCwqWQ9593iNW8"
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
         },
         "artists": [
           {
             "external_urls": {
-              "spotify": "https://open.spotify.com/artist/5HYNPEO2NNBONQkp3Mvwvc"
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
             },
-            "href": "https://api.spotify.com/v1/artists/5HYNPEO2NNBONQkp3Mvwvc",
-            "id": "5HYNPEO2NNBONQkp3Mvwvc",
-            "name": "Scott Bradlee's Postmodern Jukebox",
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
             "type": "artist",
-            "uri": "spotify:artist:5HYNPEO2NNBONQkp3Mvwvc"
-          },
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/3f6n3RzZESaZnpoKit0Sk5"
-            },
-            "href": "https://api.spotify.com/v1/artists/3f6n3RzZESaZnpoKit0Sk5",
-            "id": "3f6n3RzZESaZnpoKit0Sk5",
-            "name": "Shoshana Bean",
-            "type": "artist",
-            "uri": "spotify:artist:3f6n3RzZESaZnpoKit0Sk5"
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
           }
         ],
         "available_markets": [
@@ -3583,248 +3756,447 @@
           "ZA"
         ],
         "disc_number": 1,
-        "duration_ms": 192289,
+        "duration_ms": 363400,
         "explicit": false,
         "external_ids": {
-          "isrc": "GBDMT1500008"
+          "isrc": "USSM19902986"
         },
         "external_urls": {
-          "spotify": "https://open.spotify.com/track/6FNTpwQU3VNZvezUPYMjPY"
+          "spotify": "https://open.spotify.com/track/1hu2s7qkm5bo03eODpRQO3"
         },
-        "href": "https://api.spotify.com/v1/tracks/6FNTpwQU3VNZvezUPYMjPY",
-        "id": "6FNTpwQU3VNZvezUPYMjPY",
+        "href": "https://api.spotify.com/v1/tracks/1hu2s7qkm5bo03eODpRQO3",
+        "id": "1hu2s7qkm5bo03eODpRQO3",
         "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 33,
-        "preview_url": "https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=e838ab4e51474c979e58b50762875ce3",
-        "track_number": 3,
-        "type": "track",
-        "uri": "spotify:track:6FNTpwQU3VNZvezUPYMjPY"
-      },
-      {
-        "album": {
-          "album_type": "single",
-          "artists": [
-            {
-              "external_urls": {
-                "spotify": "https://open.spotify.com/artist/7LfubERo7MbImr0DkPBifZ"
-              },
-              "href": "https://api.spotify.com/v1/artists/7LfubERo7MbImr0DkPBifZ",
-              "id": "7LfubERo7MbImr0DkPBifZ",
-              "name": "Kyle Olthoff",
-              "type": "artist",
-              "uri": "spotify:artist:7LfubERo7MbImr0DkPBifZ"
-            }
-          ],
-          "available_markets": [
-            "AD",
-            "AR",
-            "AT",
-            "AU",
-            "BE",
-            "BG",
-            "BO",
-            "BR",
-            "CA",
-            "CH",
-            "CL",
-            "CO",
-            "CR",
-            "CY",
-            "CZ",
-            "DE",
-            "DK",
-            "DO",
-            "EC",
-            "EE",
-            "ES",
-            "FI",
-            "FR",
-            "GB",
-            "GR",
-            "GT",
-            "HK",
-            "HN",
-            "HU",
-            "ID",
-            "IE",
-            "IL",
-            "IS",
-            "IT",
-            "JP",
-            "LI",
-            "LT",
-            "LU",
-            "LV",
-            "MC",
-            "MT",
-            "MX",
-            "MY",
-            "NI",
-            "NL",
-            "NO",
-            "NZ",
-            "PA",
-            "PE",
-            "PH",
-            "PL",
-            "PT",
-            "PY",
-            "RO",
-            "SE",
-            "SG",
-            "SK",
-            "SV",
-            "TH",
-            "TR",
-            "TW",
-            "US",
-            "UY",
-            "VN",
-            "ZA"
-          ],
-          "external_urls": {
-            "spotify": "https://open.spotify.com/album/01MwM46RP1hQqURHnWjxjl"
-          },
-          "href": "https://api.spotify.com/v1/albums/01MwM46RP1hQqURHnWjxjl",
-          "id": "01MwM46RP1hQqURHnWjxjl",
-          "images": [
-            {
-              "height": 640,
-              "url": "https://i.scdn.co/image/2676143699b7b88ac20b79fc795f98d0ae20cca8",
-              "width": 640
-            },
-            {
-              "height": 300,
-              "url": "https://i.scdn.co/image/f8664f8a90a4e84a44928d0da352685dbbe3d169",
-              "width": 300
-            },
-            {
-              "height": 64,
-              "url": "https://i.scdn.co/image/f9c661232bf6cd810c99c5737ebd28d52487fe6c",
-              "width": 64
-            }
-          ],
-          "name": "I Want It That Way",
-          "release_date": "2017-01-20",
-          "release_date_precision": "day",
-          "total_tracks": 1,
-          "type": "album",
-          "uri": "spotify:album:01MwM46RP1hQqURHnWjxjl"
-        },
-        "artists": [
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/7LfubERo7MbImr0DkPBifZ"
-            },
-            "href": "https://api.spotify.com/v1/artists/7LfubERo7MbImr0DkPBifZ",
-            "id": "7LfubERo7MbImr0DkPBifZ",
-            "name": "Kyle Olthoff",
-            "type": "artist",
-            "uri": "spotify:artist:7LfubERo7MbImr0DkPBifZ"
-          },
-          {
-            "external_urls": {
-              "spotify": "https://open.spotify.com/artist/2Xs3oRPml1Xgk711Ez1Tvk"
-            },
-            "href": "https://api.spotify.com/v1/artists/2Xs3oRPml1Xgk711Ez1Tvk",
-            "id": "2Xs3oRPml1Xgk711Ez1Tvk",
-            "name": "Destiny Jenkins",
-            "type": "artist",
-            "uri": "spotify:artist:2Xs3oRPml1Xgk711Ez1Tvk"
-          }
-        ],
-        "available_markets": [
-          "AD",
-          "AR",
-          "AT",
-          "AU",
-          "BE",
-          "BG",
-          "BO",
-          "BR",
-          "CA",
-          "CH",
-          "CL",
-          "CO",
-          "CR",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "DO",
-          "EC",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GB",
-          "GR",
-          "GT",
-          "HK",
-          "HN",
-          "HU",
-          "ID",
-          "IE",
-          "IL",
-          "IS",
-          "IT",
-          "JP",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MC",
-          "MT",
-          "MX",
-          "MY",
-          "NI",
-          "NL",
-          "NO",
-          "NZ",
-          "PA",
-          "PE",
-          "PH",
-          "PL",
-          "PT",
-          "PY",
-          "RO",
-          "SE",
-          "SG",
-          "SK",
-          "SV",
-          "TH",
-          "TR",
-          "TW",
-          "US",
-          "UY",
-          "VN",
-          "ZA"
-        ],
-        "disc_number": 1,
-        "duration_ms": 150024,
-        "explicit": false,
-        "external_ids": {
-          "isrc": "QZ4JJ1732654"
-        },
-        "external_urls": {
-          "spotify": "https://open.spotify.com/track/1UUw0IsDzxCxJ6v0dlygUy"
-        },
-        "href": "https://api.spotify.com/v1/tracks/1UUw0IsDzxCxJ6v0dlygUy",
-        "id": "1UUw0IsDzxCxJ6v0dlygUy",
-        "is_local": false,
-        "name": "I Want It That Way",
-        "popularity": 30,
-        "preview_url": "https://p.scdn.co/mp3-preview/bb5d73d1bfe8a8b38cd5278112c7022599464c67?cid=e838ab4e51474c979e58b50762875ce3",
+        "name": "Wanna Be Startin' Somethin'",
+        "popularity": 59,
+        "preview_url": "https://p.scdn.co/mp3-preview/32f62861fdc3066ecb5545c56a330d8d6e9a09b2?cid=e838ab4e51474c979e58b50762875ce3",
         "track_number": 1,
         "type": "track",
-        "uri": "spotify:track:1UUw0IsDzxCxJ6v0dlygUy"
+        "uri": "spotify:track:1hu2s7qkm5bo03eODpRQO3"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
+          },
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
+              "width": 64
+            }
+          ],
+          "name": "Thriller",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 9,
+          "type": "album",
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 300106,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902994"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/07L1pzoVerhRSSaDGZHrKy"
+        },
+        "href": "https://api.spotify.com/v1/tracks/07L1pzoVerhRSSaDGZHrKy",
+        "id": "07L1pzoVerhRSSaDGZHrKy",
+        "is_local": false,
+        "name": "The Lady in My Life",
+        "popularity": 58,
+        "preview_url": "https://p.scdn.co/mp3-preview/6d1d47e76fef766db4b73955d4b20f4d9124e8f6?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 9,
+        "type": "track",
+        "uri": "spotify:track:07L1pzoVerhRSSaDGZHrKy"
+      },
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+              },
+              "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+              "id": "3fMbdgg4jU18AjLCKBhRSm",
+              "name": "Michael Jackson",
+              "type": "artist",
+              "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2ANVost0y2y52ema1E9xAZ"
+          },
+          "href": "https://api.spotify.com/v1/albums/2ANVost0y2y52ema1E9xAZ",
+          "id": "2ANVost0y2y52ema1E9xAZ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/9df6cf1df044801dbd069756cd5f5092c2441fb1",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/1dcda349e3e10f66cb61b6574afde6da31d80fa6",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/09bc00b76276b8961ce68a05f4ae71d3dc63df24",
+              "width": 64
+            }
+          ],
+          "name": "Thriller",
+          "release_date": "1982-11-30",
+          "release_date_precision": "day",
+          "total_tracks": 9,
+          "type": "album",
+          "uri": "spotify:album:2ANVost0y2y52ema1E9xAZ"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm"
+            },
+            "href": "https://api.spotify.com/v1/artists/3fMbdgg4jU18AjLCKBhRSm",
+            "id": "3fMbdgg4jU18AjLCKBhRSm",
+            "name": "Michael Jackson",
+            "type": "artist",
+            "uri": "spotify:artist:3fMbdgg4jU18AjLCKBhRSm"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 260666,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USSM19902987"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6XYbMGvtl6tlPoGWaiH7EY"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6XYbMGvtl6tlPoGWaiH7EY",
+        "id": "6XYbMGvtl6tlPoGWaiH7EY",
+        "is_local": false,
+        "name": "Baby Be Mine",
+        "popularity": 57,
+        "preview_url": "https://p.scdn.co/mp3-preview/8111b373a3a9cd14542865eb63d2396bca8ff72f?cid=e838ab4e51474c979e58b50762875ce3",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:6XYbMGvtl6tlPoGWaiH7EY"
       }
     ],
     "limit": 20,
-    "next": "https://api.spotify.com/v1/search?query=I+Want+It+That+Way&type=track&offset=20&limit=20",
+    "next": "https://api.spotify.com/v1/search?query=thriller&type=track&offset=20&limit=20",
     "offset": 0,
     "previous": null,
-    "total": 540
+    "total": 8327
   }
 }
